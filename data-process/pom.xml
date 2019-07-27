@@ -9,11 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dataprocess</artifactId>
+    <artifactId>data-process</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>dataprocess-server</module>
-        <module>dataprocess-api</module>
+        <module>data-process-server</module>
+        <module>data-process-api</module>
     </modules>
 
 </project>

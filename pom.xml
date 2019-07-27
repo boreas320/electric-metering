@@ -5,9 +5,9 @@
     <modules>
         <module>receiver</module>
         <module>billing</module>
-        <module>dataprocess</module>
+        <module>data-process</module>
         <module>registry</module>
-        <module>mailsender</module>
+        <module>mail-sender</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -18,7 +18,7 @@
     <groupId>com.utilitybilling</groupId>
     <artifactId>electric-metering</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>electric.metering</name>
+    <name>electric-metering</name>
     <description>三表合抄-电力计费系统</description>
     <packaging>pom</packaging>
     <properties>

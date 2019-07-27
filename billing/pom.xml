@@ -21,7 +21,7 @@
         </dependency>
         <dependency>
             <groupId>com.utilitybilling</groupId>
-            <artifactId>dataprocess-api</artifactId>
+            <artifactId>data-process-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
