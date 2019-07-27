@@ -16,7 +16,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.utilitybilling</groupId>
-    <artifactId>electric.metering</artifactId>
+    <artifactId>electric-metering</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>electric.metering</name>
     <description>三表合抄-电力计费系统</description>
