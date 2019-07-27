@@ -25,17 +25,15 @@ public class MessageListener {
     public void processMessage(String content) {
         LOGGER.info("receive topic={} message:{}", "processed_metering_data", content);
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
-        simpleMailMessage.setFrom();
-        simpleMailMessage.setReplyTo();
-        simpleMailMessage.setTo();
-        simpleMailMessage.setTo();
-        simpleMailMessage.setCc();
-        simpleMailMessage.setCc();
-        simpleMailMessage.setBcc();
-        simpleMailMessage.setBcc();
-        simpleMailMessage.setSentDate();
-        simpleMailMessage.setSubject();
-        simpleMailMessage.setText();
+        simpleMailMessage.setFrom("xiangshuai320@163.com");// TODO 必须真实邮件地址
+        simpleMailMessage.setTo("xiangshuai320@163.com");
+        simpleMailMessage.setSubject("电表账单");
+        simpleMailMessage.setText(content);
+        try {
+            javaMailSender.send(simpleMailMessage);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 }
