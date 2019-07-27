@@ -11,5 +11,3 @@ spring:
     host: smtp.163.com
     username: xiangshuai320@163.com
     password: X1angshua1
-
-debug: true
