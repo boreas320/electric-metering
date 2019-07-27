@@ -7,7 +7,7 @@
         <module>billing</module>
         <module>dataprocess</module>
         <module>registry</module>
-        <module>mails_ender</module>
+        <module>mail_sender</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
